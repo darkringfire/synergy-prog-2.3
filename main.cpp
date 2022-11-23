@@ -1,11 +1,11 @@
 #include <iostream>
 
 int main() {
-    int n1, n2;
+    long long int n1, n2;
     printf("n1=");
-    scanf("%i", &n1);
+    scanf("%lli", &n1);
     printf("n2=");
-    scanf("%i", &n2);
+    scanf("%lli", &n2);
 
     if (
         (n1 == 111 && n2 == 222) ||
